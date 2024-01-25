@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Inter&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Orbitron&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STARBUCKS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="menu"> 
+        <img class="imagem-logo" src="img/logo.png" alt="logo" >
+
+        <ul class="menu-lista">
+            <a class="menu-lista1">MENU</a>
+            <a class="menu-lista1">REWARDS</a>
+            <a class="menu-lista1">NOSSO CAFÉ</a>
+            <a class="menu-lista1">IMPACTO SOCIAL</a>
+        </ul>
+    
+
+     
+        <img class="img-menu" src="img/sb-historias-logo.svg" alt="historias-logo">
+
+        <img class="img-localizacao" src="img/OIP.jpg" alt="localizacao">
+        <p class="paragrafo-local">Encontre uma loja</p>
+
+        <button class="botao-entrar">Entrar</button>
+
+    </div>
+
+    <div class="menu-informacao"> 
+        <div class="informacao-texto"> 
+            <h2 class="informacao">Não é apenas Café, é um <span>Starbucks</span></h2>
+            <p class="informacao2">A cada xícara, a cada conversa, com cada comunidade.Nós nutrimos infinitas possibilidades de conexão humana.</p>
+    
+            
+
+    
+
+            <button class="botao-like">Deixe o seu Like!</button>
+        </div>    
+
+        <div>
+            <img class="starbucks-img" src="img/img1.png">
+        </div>    
+    </div>   
+
+    <div class="menu-copo">
+
+        <img class="copo-pequeno verde"src="img/img-pequena1.png">
+        <img class="copo-pequeno amarelo"src="img/img-pequena2.png">
+        <img class="copo-pequeno rosa"src="img/img-pequena3.png">
+
+    </div>
+
+    
+    
+</body>
+
+<script>
+    let imgCopo = document.querySelector(".starbucks-img")
+    let verde = document.querySelector(".verde")
+    let amarelo = document.querySelector(".amarelo")
+    let rosa = document.querySelector(".rosa")
+
+    amarelo.addEventListener("click", () => {
+        imgCopo.src = "./img/img-pequena2.png"
+    })
+
+    verde.addEventListener("click", () => {
+        imgCopo.src = "./img/img-pequena1.png"
+    })
+
+    rosa.addEventListener("click", () => {
+        imgCopo.src = "./img/img-pequena3.png"
+    })
+
+
+</script>
+
+</html>

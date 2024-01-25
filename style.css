@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.menu {
+    background: #00704a;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    width: 100%;
+    color: #ffffff;
+    
+    
+}
+
+.imagem-logo {
+    margin:10px;
+    width: 50px;
+    
+
+}
+
+.menu-lista {
+    display: flex;
+    justify-content:flex-start ;
+    justify-items: flex-end;
+    font-size: 30px;
+    gap: 20px;
+    
+    
+}
+
+.menu-lista1 {
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px 5px 5px 5px;
+    
+    
+    
+}
+
+.img-menu {
+    width: 200px;
+    margin-left: 150px;
+    padding: 40px;
+    
+    
+    
+}
+
+.img-localizacao {
+    width: 30px;
+    margin: 20px;
+   
+}
+
+.paragrafo-local {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    
+}
+
+.botao-entrar {
+    color: #000000;
+    background-color: #e6a513;
+    border-radius: 8px;
+    font-size: 23px;
+    margin: 30px;
+    cursor: pointer;
+    
+    
+}
+
+.menu-informacao {
+    background-color: #b15a11;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.informacao-texto {
+    width: 600px;
+}
+
+
+
+.informacao {
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 800;
+    
+}
+
+span {
+    color: #00704a;
+    font-size: 100px;  
+    font-weight: 700;
+    
+    
+    
+}
+
+.informacao2 {
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.starbucks-img {
+    width: 400px;
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 50px;
+    
+    
+    
+}
+
+
+
+.menu-copo {
+    display: flex;
+    justify-content: center;
+    background-color: #00704a;
+    
+    
+}
+
+.copo-pequeno {
+    width: 70px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.copo-pequeno:hover {
+    transform: translateY(-25px);
+}
+
+
+.botao-like {
+    background-color: #00704a;
+    color: #e6a513;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 50px;
+    cursor: pointer;
+    
+}
+
